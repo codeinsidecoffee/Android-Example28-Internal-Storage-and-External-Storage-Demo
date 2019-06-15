@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/edtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:hint="Enter Ur Message"/>
+
+
+    <Button
+        android:id="@+id/writeData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Data In Private Memory"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/readData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Data In Private Memory"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
